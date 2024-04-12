@@ -1,0 +1,51 @@
+.musicListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  line-height: 3;
+}
+.trackInfoContainer {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+.musicTrackImage {
+  height: 90px;
+  width: 140px;
+  margin-right: 20px;
+}
+.nameGenreContainer {
+  line-height: 1;
+}
+.name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.durationDeleteContainer {
+  display: flex;
+  align-items: center;
+}
+.duration {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
